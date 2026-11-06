@@ -1,68 +1,89 @@
-:root {
-    --main-color: darkblue;
-    --text-color: #333;
-    --light-background: #eee;
-    --image-width: 150px;
-    --image-padding: 2px;
-    --image-border: 1px solid black;
-    --image-shadow: 0 0 30px gray;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-nav {
-    background-color: var(--main-color);
-    padding: 10px;
-}
+    :root {
+        --main-color: darkblue;
+        --text-color: #333;
+        --light-background: #eee;
+        --image-width: 150px;
+        --image-padding: 2px;
+        --image-border: 1px solid black;
+        --image-shadow: 0 0 30px gray;
+    }
 
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
-}
+    nav {
+        background-color: var(--main-color);
+        padding: 10px;
+    }
 
-h1 {
-    color: var(--main-color);
-}
+    nav a {
+        color: white;
+        display: block;
+        padding: 20px;
+    }
 
-img {
-    width: var(--image-width);
-    height: auto;
-    border: var(--image-border);
-    padding: var(--image-padding);
-    box-shadow: var(--image-shadow);
-}
+    h1 {
+        color: var(--main-color);
+    }
 
-main {
-    max-width: 840px;
-}
+    img {
+        width: var(--image-width);
+        height: auto;
+        border: var(--image-border);
+        padding: var(--image-padding);
+        box-shadow: var(--image-shadow);
+    }
 
-aside {
-    background-color: var(--light-background);
-    color: var(--text-color);
-    padding: 15px;
-    margin: 20px;
-    width: 300px;
-    border: 2px solid var(--text-color);
-}
+    main {
+        max-width: 840px;
+    }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
+    aside {
+        width: 300px;
+        position: relative;
+    }
 
-main img {
-    width: var(--image-width);
-    height: auto;
-    border: var(--image-border);
-    padding: var(--image-padding);
-    box-shadow: var(--image-shadow);
-}
+    aside h2 {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        color: white;
+        background-color: darkblue;
+        padding: 8px;
+    }
 
-p {
-    padding: 0;
-}
+    aside img {
+        width: 200px;
+        height: auto;
+    }
 
-footer {
-    margin-top: 20px;
-    border-top: 1px solid var(--text-color);
-    text-align: center;
-}
+    main img {
+        float: right;
+        width: var(--image-width);
+        height: auto;
+        border: var(--image-border);
+        padding: var(--image-padding);
+        box-shadow: var(--image-shadow);
+    }
+
+    p {
+        padding: 0;
+    }
+
+    footer {
+        margin-top: 20px;
+        border-top: 1px solid var(--text-color);
+        text-align: center;
+    }
+
+    /*class selectors */
+    .box {
+        margin: 1rem;
+        border: 1px solid #333;
+        padding: 1rem;
+        background-color: #eee;
+        color: #333;
+    }
