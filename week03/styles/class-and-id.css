@@ -53,3 +53,9 @@ code {
     border-radius: 20px;
     padding: 20px;
 }
+
+#note-test {
+    background-color: yellow;
+    color: #000;
+    padding: 10px;
+}
