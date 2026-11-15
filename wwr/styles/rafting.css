@@ -50,6 +50,7 @@ nav a {
     color: var(--primary-color);
     font-weight: bold;
     padding: 12px;
+    background-color: var(--secondary-color);
 }
 
 h1,
