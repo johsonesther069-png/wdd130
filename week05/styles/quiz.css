@@ -1,0 +1,101 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content */
+main {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Form styling */
+form {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Fieldset styling */
+fieldset {
+    display: grid;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+}
+
+/* Form controls */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+/* Submit button */
+button {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:focus-visible {
+    outline: 3px solid #0077cc;
+    outline-offset: 3px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
