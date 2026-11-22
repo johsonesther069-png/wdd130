@@ -1,0 +1,124 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* Form styling */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    display: grid;
+    gap: 20px;
+}
+
+/* Fieldset styling */
+fieldset {
+    display: grid;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Legend styling */
+legend {
+    padding: 0 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form item styling */
+.form-item {
+    display: grid;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Narrow label layout */
+.label-narrow {
+    grid-template-columns: 1fr 2fr;
+}
+
+/* Wide label layout */
+.label-wide {
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 10px;
+}
+
+/* Label styling */
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Input, select, and textarea styling */
+input,
+select,
+textarea {
+    padding: 8px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+/* Button styling */
+button {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:focus-visible {
+    outline: 3px solid #0077cc;
+    outline-offset: 3px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
