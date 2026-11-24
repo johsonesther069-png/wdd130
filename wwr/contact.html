@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description" content="Contact White Water Rafting for questions about rafting adventures, reservations, and services.">
+    <meta name="author" content="Esther Anyanwu">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting-logo.png" alt="White Water Rafting logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="contact-info">
+            <h2>Our Contact Information</h2>
+
+            <p><strong>Address:</strong> 123 River Adventure Road, Boise, Idaho 83702, USA</p>
+            <p><strong>Phone:</strong> (208) 555-0147</p>
+            <p><strong>Email:</strong> info@whitewaterrafting.example</p>
+
+            <iframe src="https://www.google.com/maps?q=Boise,Idaho&output=embed" width="600" height="350" title="Map showing Boise, Idaho" loading="lazy">
+            </iframe>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+
+            <figure>
+                <img src="images/employee1.jpg" alt="Company manager">
+                <figcaption>James Anderson - Company Manager</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/employee2.jpg" alt="Rafting guide">
+                <figcaption>Sarah Johnson - Head Rafting Guide</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/employee3.jpg" alt="Customer service representative">
+                <figcaption>Michael Brown - Customer Service Representative</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+
+            <form>
+                <label for="fullname">Your Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose of Message:</p>
+
+                <label>
+                    <input type="radio" name="purpose" value="general" required>
+                    General Inquiry
+                </label>
+
+                <label>
+                    <input type="radio" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
+
+                <label>
+                    <input type="radio" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
