@@ -13,6 +13,7 @@
 <body>
     <header>
         <img src="images/rafting-logo.png" alt="White Water Rafting logo">
+
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -20,8 +21,9 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
-        <h1>Contact Us</h1>
+        <h1>Contact Us - White Water Rafting</h1>
 
         <section class="contact-info">
             <h2>Our Contact Information</h2>
@@ -53,6 +55,13 @@
             </figure>
         </section>
 
+        <section class="contact-photo">
+            <figure>
+                <img src="images/rafting.jpg" alt="Guests enjoying a white water rafting adventure">
+                <figcaption>Experience the excitement of white water rafting!</figcaption>
+            </figure>
+        </section>
+
         <section class="contact-form">
             <h2>Send Us a Message</h2>
 
@@ -65,18 +74,18 @@
 
                 <p>Purpose of Message:</p>
 
-                <label>
-                    <input type="radio" name="purpose" value="general" required>
+                <label for="general">
+                    <input type="radio" id="general" name="purpose" value="general" required>
                     General Inquiry
                 </label>
 
-                <label>
-                    <input type="radio" name="purpose" value="reservation">
+                <label for="reservation">
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
                     Reservation Question
                 </label>
 
-                <label>
-                    <input type="radio" name="purpose" value="suggestion">
+                <label for="suggestion">
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
                     Website Suggestion
                 </label>
 
@@ -92,3 +101,24 @@
             </form>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2026 White Water Rafting | Esther Anyanwu</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="https://youtube.com">
+                <img src="images/youtube.png" alt="YouTube">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
